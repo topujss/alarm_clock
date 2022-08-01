@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="alarm-count">
+      <audio src="./audio.mp3"></audio>
+      <h2>Alarm clock</h2>
+      <form id="counter-form">
+        <div class="input">
+          <input type="date" name="date" />
+          <input type="time" name="time" />
+          <input type="submit" value="submit" />
+        </div>
+        <input type="button" class="stop-btn" value="Stop Alarm" />
+        <div class="bar"></div>
+      </form>
+      <div id="countdown"></div>
+    </header>
+
+    <script src="./function.js"></script>
+    <script src="readme.js"></script>
+  </body>
+</html>
